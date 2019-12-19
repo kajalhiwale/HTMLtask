@@ -1,0 +1,209 @@
+*{
+    margin:0px; padding:0px; box-sizing:border-box;
+  }
+  /* navbar css */
+  nav{
+        background-color:#d3d3de;
+        height: 10vh;width:90%;
+        margin-top:30px; 
+        left:60px;
+    }
+    .logo img{
+      width: 100px; height: 45px;
+      margin-bottom: 5px;;
+    }
+    .fa-arrow-left{
+        padding-top: 18px;
+        margin:0px 40px 0px 50px;
+        font-size: 20px;
+       
+        color:rgba(0,0,0,0.2);
+    }
+    .fa-times{
+        margin:0px 40px 0px 50px;
+        font-size: 20px;
+        color:rgba(0,0,0,0.2);
+    }
+
+    /* 2nd section recommended protfolio css */
+     
+    h4{
+        margin:50px 0px 0px 190px;
+        text-align: center;
+    }
+    .how{
+        text-align: center;
+        margin: 0px 0px 40px 190px;
+        font-size:11px;
+    }
+
+    /* 2ND block grid system css*/
+    .row1{
+        margin-left: 250px;
+    }
+   .col2, .col3,.col4,.col5{
+        margin-left: 70px;
+    }
+    .p1{
+        font-size: 12px;
+    }
+    .p2{
+        font-size: 12px;
+        margin-left: 22px; 
+    }
+    .fa-rupee-sign{
+        font-size: 25px;
+        margin: 0px 10px 0px 0px;
+    }
+    .p3{
+        font-size: 12px;
+        margin-left: 33px;  
+    }
+    .fa-hand-holding-usd{
+        margin-right: 10px;
+    }
+    .fas{
+        color:rgba(0,0,0,0.4);
+    }
+    .p4{
+        font-size: 12px;
+        margin-left: 42px;   
+    }
+
+    /* progress bar circle css*/
+    .progress--circle {
+             position: relative;
+             display: inline-block;
+             margin: 30px 0px 0px 270px;
+             width: 200px;
+             height: 200px;
+             border-radius: 50%;
+             background-color: #1dce9c;
+            }
+    .progress--circle:before {
+            content: '';
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            background-color: white;
+            }
+    .progress--circle:after {
+            content: '';
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color:#00203c;
+            }
+    .progress__number {
+            position: absolute;
+            top: 15%;
+            width: 100%;
+            font-size: 15px;
+            text-align: center;
+            font-size: 1.5rem;
+            color:#1dce9c;
+            font-weight: 400;
+            }
+    .eq{
+         color:#00203c; 
+        }
+    .progress--circle.progress--50:after {
+        background-image: linear-gradient(-90deg,transparent 50%,#1dce9c 70%, transparent), linear-gradient(270deg,transparent 50%, #1dce9c 50%,transparent);
+        }
+    .adii{
+        font-size: 9px;
+        margin: 5px 0px 0px 230px;
+        }
+
+   /* card css */
+
+    .card {
+            border-left: 4px solid #1dce9c;
+            margin-top: 30px;
+            border-radius: 0%;
+            width: 82%;
+            margin-left: 40px;
+          }
+    .card-body{
+            font-size: 12px;
+            margin-left: 5px;
+          }
+          
+   /* inside card list css */
+    ul {
+       list-style: none;
+      }   
+    ul .li1::before {
+            content: "•"; color:  #24a17e;
+            display: inline-block;
+            margin-left: 12px;
+            font-size: 30px;;
+          }
+    ul .li2::before {
+            content: "•"; color: #1dce9c;
+            display: inline-block;
+            margin-left: 12px;
+            font-size: 30px;;
+          }
+    ul .li3::before {
+            content: "•"; color: #00203c;
+            display: inline-block;
+            margin-left: 12px;
+            font-size: 30px;;
+          }
+    .li2,.li3,.li1 {
+            color:rgba(0,0,0,0.5); 
+            margin-top:0px;
+          }
+
+     /*  inside card content css  */
+    .amt1{
+         margin-left: 0px;
+        }
+
+    .rupee{
+           float: right;
+           background-color: #24a17e;
+           font-size:23px;
+           color:#fff;
+           padding: 20px;
+          }
+    .rupee2{
+           float: right;
+           background-color: #1dce9c ;
+           font-size: 23px;
+           color:#fff;
+           padding: 20px;
+          }
+    .rupee3{
+           float: right;
+           background-color: #00203c;
+           font-size: 23px;
+           color:#fff;
+           padding: 20px;
+          }
+    .ro,.mid{
+           margin-top: 12px;
+           color:rgba(0,0,0,0.5);
+           }
+    .mid{
+         float: left;
+        }
+    .adi{
+         margin:10px 0px 0px 10px;
+         font-size: 13px;
+        }
+    .pp{
+        margin:5px 0px 0px 415px;
+        font-size: 9px;
+       }
+    .btn{
+         margin:20px 0px 20px 570px;
+         padding:10px 25px 10px 25px;
+         background-color: #1dce9c;
+         color:#fff;
+        }
